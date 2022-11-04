@@ -55,7 +55,7 @@ const StartButton = styled.button`
   border: 0;
   border-radius: 30px;
   width: 30vw;
-  background: skyblue;
+  background: #29335c;;
   color: #fff;
   font-size: 50px;
   /* 여기다가 작성 */
@@ -63,6 +63,9 @@ const StartButton = styled.button`
   /* border: 0;
   border-radius: 15px; */
   font-size: 30px;
+  cursor: pointer;
 `;
+
+
 
 export default QuizApp;

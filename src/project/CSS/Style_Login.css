@@ -16,6 +16,33 @@
   background-color: rgb(251, 253, 145);
 }
 
+.Main-container {
+  display: flex;
+  height: 2000px;
+  align-items: center;
+  display: block;
+  box-sizing: border-box;
+  border:0px solid;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.Main-container1 {
+  height: 500px;
+  display: block;
+  box-sizing: border-box;
+  border:0px solid;
+  background-color:rgb(251, 253, 145)
+}
+
+.Main-container2 {
+  height: 800px;
+  display: block;
+  box-sizing: border-box;
+  border:0px solid;
+  background-color:#29335c;
+}
+
 
 /* body {
   font-family: 'Poppins', sans-serif;
@@ -44,14 +71,22 @@
   position: relative;
 }
 
-.Login-card::before {
+.Main-big-box {
+  width: 450px;
+  background: rgba(0, 100, 12, 0.5);
+  padding: 4rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* .Login-card::before {
   content: '';
   position: absolute;
   background: rgba(0, 100, 12, .15);
   inset: 0;
   transform: rotate(-5deg);
   z-index: -1;
-}
+}  */
 
 .Login-card-logo {
   margin-bottom: 2rem;
@@ -280,6 +315,7 @@
   margin: 40px 90px;
   font-size: large;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 100px;
   width: 240px;
   height: 56px;
   cursor: pointer;
@@ -345,10 +381,120 @@
 }
 
 .Age {
-  position:;
   font-weight: bold;
 }
 
+.Main-box1 {
+  position: relative;
+  left: 42.5rem;
+  top: 3rem;
+  border-radius: 100px;
+  background-color: #29335c;
+  background-color: rgba(76, 76, 76, 0.7);
+  overflow: hidden;
+  animation: fadein 2.5s ease-in-out;
+  width: 35rem;
+}
+
+.Main-font {
+  position: relative;
+  left: 128px;
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.Main-box-font2 {
+  position: relative;
+  left: 33.5rem;
+  top: 11rem;
+  font-size: 40px;
+  color:#29335c;
+  font-weight: bold;
+  overflow: hidden;
+  animation: fadein 2.5s ease-in-out;
+}
+.Main-box-big {
+  position: relative;
+  left: 400px;
+  font-size: 400px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.Main-box2 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Main-box2-font1 {
+  position: relative;
+  left:55rem;
+  top:5rem ;
+  font-size: 350px;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  overflow: hidden;
+  animation: fadein 2.5s ease-in-out;
+  font-weight: bold;
+  width: 500px;
+}
+
+.Main-box2-font2 {
+
+}
+@keyframes fadein {
+  0%{
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.Main-box-font4 {
+  position: relative;
+  right: -38px;
+  top: 9rem;
+  font-size: 20px;
+  color:#29335c;
+  font-weight: bold;
+}
+
+.Main-box-button2 {
+  position: relative;
+  top: 12rem;
+  width: 300px;
+  border-radius: 100px;
+  color: white;
+  font-size: large;
+  background: black;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.Main-Home1 {
+  position: relative;
+  right: 10rem;
+  bottom: 80rem;
+}
+
+/* .video {
+  /* width: 1000px; 
+  position: relative;
+  bottom: 450px;
+  height: 1500px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+  
+  background-color: rgb(251, 253, 145);
+} */
 
 
 
