@@ -18,7 +18,7 @@
 
 .Main-container {
   display: flex;
-  height: 2000px;
+  height: 1650px;
   align-items: center;
   display: block;
   box-sizing: border-box;
@@ -28,7 +28,7 @@
 }
 
 .Main-container1 {
-  height: 500px;
+  height: 600px;
   display: block;
   box-sizing: border-box;
   border:0px solid;
@@ -36,7 +36,7 @@
 }
 
 .Main-container2 {
-  height: 800px;
+  height: 600px;
   display: block;
   box-sizing: border-box;
   border:0px solid;
@@ -426,23 +426,29 @@
   font-weight: bold;
   font-size: 40px;
   text-align: center;
+  bottom: 100px;
 }
 
 .Main-box2-font1 {
   position: relative;
-  left:55rem;
-  top:5rem ;
+  left:45rem;
+  top:7rem ;
   font-size: 350px;
   font-family: 'Times New Roman', Times, serif;
   color:white;
   overflow: hidden;
-  animation: fadein 2.5s ease-in-out;
+  animation: fadein 5.0s ease-in-out;
   font-weight: bold;
   width: 500px;
 }
 
 .Main-box2-font2 {
+  position: relative;
+  top:100px;
+}
 
+.Main-box2-font3 {
+  top:100px;
 }
 @keyframes fadein {
   0%{
@@ -464,9 +470,27 @@
   font-weight: bold;
 }
 
+.Main-box3 {
+position: relative;
+text-align: center;
+top: 13rem;
+font-size: 40px;
+color:black;
+font-weight: bold;
+}
+
+.Main-box3-font1 {
+  font-size: ;
+}
+
+.Main-box3-font2 {
+
+}
+
 .Main-box-button2 {
   position: relative;
-  top: 12rem;
+  top: 20rem;
+  left: 50rem;
   width: 300px;
   border-radius: 100px;
   color: white;

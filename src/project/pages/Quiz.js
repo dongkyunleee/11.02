@@ -99,6 +99,8 @@ const OXcontainer = styled.div`
 `;
 const OX = styled.div`
     display: flex;  
+    right: 46rem;
+    bottom: 10rem;
     color: skyblue;
     width: 50%;
     align-items: center;
