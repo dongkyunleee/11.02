@@ -414,6 +414,7 @@
   overflow: hidden;
   animation: fadein 2.5s ease-in-out;
 }
+
 .Main-box-big {
   position: relative;
   left: 400px;
@@ -479,13 +480,6 @@ color:black;
 font-weight: bold;
 }
 
-.Main-box3-font1 {
-  font-size: ;
-}
-
-.Main-box3-font2 {
-
-}
 
 .Main-box-button2 {
   position: relative;
@@ -498,12 +492,6 @@ font-weight: bold;
   background: black;
   padding: 1rem;
   cursor: pointer;
-}
-
-.Main-Home1 {
-  position: relative;
-  right: 10rem;
-  bottom: 80rem;
 }
 
 /* .video {
